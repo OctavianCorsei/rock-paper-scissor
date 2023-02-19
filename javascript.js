@@ -28,10 +28,11 @@ if draw - start over the round
 return true if player won and false if computer won
 */
 function playRound() {
-    computerSelection = getComputerChoice();
-    console.log(`computer chose ${computerSelection}`);
     playerSelection = getPlayerChoice();
     console.log(`player chose ${playerSelection}`);
+    computerSelection = getComputerChoice();
+    console.log(`computer chose ${computerSelection}`);
+    
 
     if(computerSelection == playerSelection) {
         console.log('It\'s a draw! try again');
