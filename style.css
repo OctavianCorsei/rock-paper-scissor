@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.btn {
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    background: #4c75db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #3061db;
+    text-decoration: none;
+  }
+
+  .game-container {
+    height: 100vh;
+    background-color: lightpink;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .gamelog-console {
+    height: 15vh;
+    width: 70%;
+    background-color: lightblue;
+    margin: 5vh 0;
+    align-self: center;
+    text-align: center;
+  }
+
+  .score {
+    margin-bottom: 5vh;
+  }
+
+  .choices {
+    display: flex;
+    justify-content: space-between;
+  }

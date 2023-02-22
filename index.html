@@ -2,11 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="ui-javascript.js" defer></script>
 </head>
 <body>
-    <script src="javascript.js"></script>
+    <div class="header">
+        <h1 class="title">Best Rock-Paper-Scissors Game Ever</h1>
+    </div>
+    <div class="game-container">
+        <div class="gamelog-console" id="game-console" >
+
+        </div>
+        <div class="score">
+            <div id="player-score">You: 0</div>
+            <div id="computer-score">Computer: 0</div>
+        </div>
+        <button id="reset-button">Reset</button>
+        <div class="choices" id="player-choices">
+            <button class="btn" data-value="rock">rock</button>
+            <button class="btn" data-value="paper">paper</button>
+            <button class="btn" data-value="scissors">scissors</button>
+        </div>
+        <div class="gameLog-Screen">
+            <ol id="move-list">
+
+            </ol>
+        </div>
+        <div id="overall-score"></div>
+    </div>
+    
 </body>
 </html>

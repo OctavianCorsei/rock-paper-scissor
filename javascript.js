@@ -36,7 +36,7 @@ function playRound() {
 
     if(computerSelection == playerSelection) {
         console.log('It\'s a draw! try again');
-        playRound()
+        playRound();
     }
     else if(computerSelection == 'rock' && playerSelection == 'paper') return true;
     else if(computerSelection == 'paper' && playerSelection == 'scissors') return true;
